@@ -1,0 +1,572 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+/* 
+html{
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 14%;
+} */
+
+section{
+    /* scroll-snap-align: start;
+    scroll-snap-stop: normal; */
+    background-image: linear-gradient(to right,#000,#113);
+}
+
+
+nav{
+    width: 100%;
+    border-bottom: 2px solid #aaa;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(to right,#000,#113);
+    z-index: 1 ;
+}
+
+nav .irtiqa-class-logo{
+    position: fixed;
+    left: 3%;
+    top: 1.5%;
+}
+nav .irtiqa-class-logo img{
+    width: 55px;
+}
+
+nav .irtiqa-class-resumeButton{
+    /float: right;
+    position: fixed;
+    top: 1.5%;
+    right: 2%;
+    
+    
+}
+
+nav .irtiqa-class-resumeButton a button{
+    padding: 10px 35px;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size:large;
+    
+}
+
+nav .irtiqa-class-resumeButton a{
+    text-decoration: none;
+    color: #fff;
+}
+nav .irtiqa-class-resumeButton a button:hover{
+    /background-image: linear-gradient(to right,#000,#113);
+    background-color: #113;
+    color: #fff;
+    cursor:grab;
+}
+.irtiqa-class-menu ul{
+    list-style: none;
+    text-align: center;
+}
+
+.irtiqa-class-menu ul li{
+    display: inline;
+    margin-left: 15px;
+
+    
+}
+.irtiqa-class-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+}
+
+.irtiqa-class-front{
+    display: flex;
+   /justify-content: center;
+    /align-items: center;
+    margin-top: 3%;
+}
+.irtiqa-class-front img{
+    margin-top: 1%;
+    width: 420px;
+    position: absolute;
+    right: 17%;
+    transition: 2s ease;
+}
+.irtiqa-class-front{
+    color: #fff;
+    /height: 570px;
+    min-height: 570px;
+    /background-color: #000;
+}
+
+.irtiqa-class-front .irtiqa-class-content{
+    
+    width: 70%;
+    text-align: center;
+    margin-top: 12%;
+    /margin-left: 25%;
+    transition: 1s ease;
+}
+
+
+.irtiqa-class-front .irtiqa-class-content .irtiqa-class-mynerve-regular {
+    font-family: "Mynerve", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 40%;
+  }
+
+  .irtiqa-class-front .irtiqa-class-crafty-girls-regular {
+    font-family: "Quicksand", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+  
+.irtiqa-class-front .irtiqa-class-protest-revolution-regular {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  font-style:normal;
+}
+
+.irtiqa-class-front .irtiqa-class-para{
+    width: 33%;
+    text-align: justify;
+    /border: 1px solid;
+    position: absolute;
+    left: 18%;
+    top: 52.5%;   
+    height: 250px;
+    
+}
+.irtiqa-class-front  p{
+    display: block;
+    font-family: "Quicksand", sans-serif;  
+    font-style: normal;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    margin-top: 10px;
+    
+}
+
+.irtiqa-class-pg2{
+    width: 100%;
+    height: 560px;
+    color: #fff;
+    text-align: center;
+    margin-top: 4.8%;
+}
+
+
+
+.irtiqa-class-pg2 h2{
+    font-size: 35px;
+    padding-top: 1%;
+}
+
+
+
+
+.irtiqa-class-pg2 .irtiqa-class-educt{
+    /border: 1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    width: 50%;
+    height: 22%;
+    font-size: larger;
+    
+    padding: 1%;
+}
+
+.irtiqa-class-pg2 .irtiqa-class-educt h3{
+    background-color: #000;
+    border: 1px solid #fff;
+    margin-bottom: 2%;
+    padding: 0.5%;
+}
+
+
+.irtiqa-class-pg2 .irtiqa-class-educt p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 21px;
+}
+
+
+.irtiqa-class-pg3{
+    width: 100%;
+    height: 560px;
+    color: #fff;
+    text-align: center;
+    margin-top: 4.8%;
+}
+
+
+.irtiqa-class-pg3 .irtiqa-class-sk1{
+    width: 20%;
+    height: auto;
+    padding: 5px;
+    float: left;
+    margin-left: 9%;
+    margin-bottom: 2%;
+    
+}
+
+.irtiqa-class-pg3 h2{
+    margin-bottom: 1%;
+    font-size: 35px;
+    padding-top: 1%;
+}
+
+.irtiqa-class-pg3 .irtiqa-class-sk1 h3{
+    text-align: center;
+    line-height: 50px;
+    /background-image: linear-gradient(to right,#113,#000);
+    color:#fff;
+    background-color: #000;
+    /background-color: #fff;
+    border: 1px solid #fff;
+   /float: left;
+    margin-right: 5%;
+    padding: 1px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.irtiqa-class-pg3 .irtiqa-class-sk1 ul{
+    /margin-left: 70px;
+    text-align:left;
+    list-style:disc;
+    list-style-position: inside;
+}
+
+.irtiqa-class-pg3 .irtiqa-class-sk1 ul li{
+    font-family: "Quicksand", sans-serif;
+    font-size: 21px;
+}
+
+.irtiqa-class-pg3 .irtiqa-class-sk1 img{
+    margin: auto;
+}
+
+.irtiqa-class-pg3 .irtiqa-class-sk1 .irtiqa-class-images{
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    align-content: center;
+}
+
+.irtiqa-class-pg3 .irtiqa-class-sk1 .irtiqa-class-images img{
+    
+    float: left;
+}
+
+
+.irtiqa-class-proj{
+    width: auto;
+    /border: 1px solid;
+    height: auto;
+    float: left;
+
+    margin-left: 1%;
+}
+
+.irtiqa-class-proj img{
+    width: 430px;
+    height: 220px;
+}
+
+
+.irtiqa-class-proj img:hover{
+    opacity: 50%;
+    transition: .5s ease;
+}
+
+
+.irtiqa-class-more{
+    text-align: center;
+    margin: 22%;
+    font-size: larger;
+}
+
+.irtiqa-class-more a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    display: inline;
+}
+
+.irtiqa-class-more a:hover{
+    opacity: 50%;
+}
+
+.irtiqa-class-form{
+    /border: 1px solid;
+    width: 100%;
+    
+    margin: auto;
+}
+
+.irtiqa-class-form input{
+    padding: 0.7%;
+    font-size: 16px;
+    margin-bottom: 1%;
+    font-family: "Quicksand", sans-serif;
+}
+
+.irtiqa-class-form #irtiqa-id-name,#irtiqa-id-number{
+    width: 20%;
+}
+
+.irtiqa-class-form #irtiqa-id-email{
+    width: 42%;
+}
+
+.irtiqa-class-form #irtiqa-id-txtarea{
+    padding: 1% 1.75%;
+    font-size: 16px;
+    margin-bottom: 1.5%;
+    font-family: "Quicksand", sans-serif;
+}
+
+.irtiqa-class-form #irtiqa-id-submit{
+    padding: 1% 2%;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5%;
+    border-radius: 40px;
+}
+
+.irtiqa-class-form #irtiqa-id-submit:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .2s ease;
+    cursor: grab;
+}
+
+.irtiqa-class-pg3 .irtiqa-class-footer{
+    width: auto;
+    height: 100px;
+    /background-color: #000;
+    border-top: 1px solid #fff;
+    padding: 1.2%;
+}
+
+.irtiqa-class-pg3 .irtiqa-class-footer img{
+    width: 30px;
+    margin: 0.3%;
+    margin-top: 1%;
+}
+
+.irtiqa-class-pg3 .irtiqa-class-footer img:hover{
+    opacity: 50%;
+}
+
+
+.irtiqa-class-pg3 .irtiqa-class-footer a{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+   
+    *{
+        display: block;
+
+    }
+
+    .irtiqa-class-front{
+        min-height: 570px;
+    }
+    .irtiqa-class-front .irtiqa-class-content{
+        width: 50%;
+        margin-left: 3%;
+        margin-top: 32%;
+        height: auto;
+    }
+    .irtiqa-class-front .irtiqa-class-protest-revolution-regular{
+        font-size: 60px;
+    }
+
+    nav{
+        z-index: 2;
+    }
+
+    .irtiqa-class-front .irtiqa-class-content .irtiqa-class-crafty-girls-regular{
+        font-size: 25px;
+    }
+
+    .irtiqa-class-front .irtiqa-class-para{
+    
+        width: 90%;
+        height: 150px;
+        left: 3%;
+        border: 1px solid;
+        top: 70%;
+        text-align: center;
+        background-color: #000;
+        z-index: 1;
+        padding: 1% 2%;
+        background-image: linear-gradient(to left,#113,#000);
+    }
+
+    .irtiqa-class-front .irtiqa-class-para p{
+        font-size: 16px;
+
+    }
+    .irtiqa-class-front img{
+        width: 300px;
+        position: absolute;
+        right: 2%;
+        margin-top: 15%;
+    }
+
+ 
+    .irtiqa-class-menu ul li a{
+        font-size: medium;
+        /background-color: #fff;
+        display: inline;
+    }
+    nav .irtiqa-class-resumeButton{
+        position: static;
+        display: flex;
+        justify-content: center;
+        float: none;
+        margin-top: 15px;
+    }
+    nav .irtiqa-class-resumeButton a button{
+        padding: 5px 20px;
+        font-size:medium;   
+    }
+
+    nav .irtiqa-class-logo{
+        position: absolute;
+        top: 30%;
+    }
+
+    
+    .irtiqa-class-page2 h2{
+        font-size: 28px;
+        padding-top: 18%;
+        margin-bottom: 1%;
+        
+    }
+    .irtiqa-class-page2 .irtiqa-class-educt{
+        font-size: medium;
+        display: inline;
+    }
+
+    .irtiqa-class-pg2 .irtiqa-class-educt h3{
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .irtiqa-class-page2 .irtiqa-class-educt p{
+        font-size: 17px;
+    }
+
+    .irtiqa-class-pg3{
+        min-height: 560px;
+    }
+    .irtiqa-class-pg3 h2{
+        font-size: 28px;
+        padding-top: 18%;
+        margin-bottom: 3%;
+    }
+
+    .irtiqa-class-pg3 .irtiqa-class-sk1{
+        width: 25%;
+        margin-left: 4.5%;
+    }
+    .irtiqa-class-pg3 .irtiqa-class-sk1 h3{
+        font-size: medium;
+        line-height: 1.2;
+        height: 40px;
+    
+    }
+
+    .irtiqa-class-pg3 .irtiqa-class-sk1 ul li{
+        font-size: 17px;
+    }
+
+    .irtiqa-class-pg3 .irtiqa-class-proj{
+        margin: 1.5% 5%;
+    }
+    .irtiqa-class-pg3 .irtiqa-class-proj img{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .irtiqa-class-more{
+
+        display: block;
+        display: grid;
+        padding: 5% 5%;
+        
+    } 
+    .irtiqa-class-more h5 { 
+        font-size: small;
+    }
+    .irtiqa-class-more a img{
+        width: 90px;
+    }
+
+    .irtiqa-class-form{
+        margin: 4%;
+        min-height: 300px;
+    }
+    .irtiqa-class-form input{
+        font-size: 14px;
+        margin: 0.5%;
+        height: 25px;
+    }
+
+    .irtiqa-class-form #irtiqa-id-name,#irtiqa-id-number{
+        display: inline;
+        float: left;
+        width: 43.7%;
+    }
+    
+    .irtiqa-class-form #irtiqa-id-email{
+        width: 90.5%;
+        float: left;
+        margin-bottom: 1%;
+    }
+
+    .irtiqa-class-form #irtiqa-id-txtarea{
+        width: 89%;
+        font-size: 14px;
+        margin-left: 0.5%;
+    }
+
+    .irtiqa-class-form #irtiqa-id-submit{
+        margin-left: auto;
+        margin-right: auto;
+        height: 35px;
+        margin-bottom: 1%;
+    }
+
+    .irtiqa-class-pg3 .irtiqa-class-footer{
+       
+        height: 40px;
+        padding: 1.2%;
+    }
+
+    .irtiqa-class-pg3 .irtiqa-class-footer .irtiqa-class-social{
+        margin-left: 35%;
+        display:flex;
+    }
+    .irtiqa-class-pg3 .irtiqa-class-footer img{
+        width: 20px;
+        margin-right: 2%;
+       
+    }
+}
