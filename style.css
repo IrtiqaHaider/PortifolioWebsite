@@ -383,14 +383,15 @@ nav .irtiqa-class-resumeButton a button:hover{
     }
 
     .irtiqa-class-front{
-        /height: 914px;
-        min-height: 650px;
+        height: 729px;
+        /min-height: 650px;
     }
     .irtiqa-class-front .irtiqa-class-content{
-        width: 50%;
+        width: 100%;
         margin-left: 0%;
-        margin-top: 32%;
+        margin-top: 90%;
         height: auto;
+        z-index: 3;
     }
     .irtiqa-class-front .irtiqa-class-protest-revolution-regular{
         font-size: 60px;
@@ -407,10 +408,10 @@ nav .irtiqa-class-resumeButton a button:hover{
     .irtiqa-class-front .irtiqa-class-para{
     
         width: 90%;
-        height: 185px;
+        height: 205px;
         left: 3%;
         border: 1px solid;
-        top: 50%;
+        top: 64%;
         text-align: center;
         background-color: #000;
         z-index: 1;
@@ -425,13 +426,16 @@ nav .irtiqa-class-resumeButton a button:hover{
     .irtiqa-class-front img{
         width: 300px;
         position: absolute;
-        right: -5%;
+        right: 12%;
         margin-top: 15%;
     }
 
-   
+    .irtiqa-class-menu ul{
+        text-align: left;
+    }
     .irtiqa-class-menu ul li{
-        margin-left: 6px;
+        margin-left: 10px;
+        
     }
     .irtiqa-class-menu ul li a{
         font-size: medium;
@@ -442,9 +446,10 @@ nav .irtiqa-class-resumeButton a button:hover{
     nav .irtiqa-class-resumeButton{
         position: static;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         float: none;
         margin-top: 15px;
+        margin-right: 12%;
     }
     nav .irtiqa-class-resumeButton a button{
         padding: 5px 20px;
@@ -453,14 +458,18 @@ nav .irtiqa-class-resumeButton a button:hover{
 
     nav .irtiqa-class-logo{
         position: absolute;
-        top: 30%;
+        top: 50%;
+        left: 37%;
     }
 
+    .irtiqa-class-page2{
+        height: 749px;
+    }
     
     .irtiqa-class-page2 h2{
         font-size: 28px;
-        padding-top: 18%;
-        margin-bottom: 1%;
+        padding-top: 25%;
+        margin-bottom: 2%;
         
     }
     .irtiqa-class-page2 .irtiqa-class-educt{
@@ -469,53 +478,56 @@ nav .irtiqa-class-resumeButton a button:hover{
     }
 
     .irtiqa-class-pg2 .irtiqa-class-educt h3{
-        width: 92%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .irtiqa-class-page2 .irtiqa-class-educt p{
-        font-size: 17px;
+        font-size: 18px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
     }
 
     .irtiqa-class-pg3{
-        min-height: 560px;
+
+        height: 749px;
     }
     .irtiqa-class-pg3 h2{
         font-size: 28px;
-        padding-top: 18%;
-        margin-bottom: 3%;
+        padding-top: 24%;
+        margin-bottom: 5%;
     }
 
     .irtiqa-class-pg3 .irtiqa-class-sk1{
-        width: 25%;
-        margin-left: 4.5%;
+        
+        width: 35%;
+        margin-left: 8%;
+    
     }
     .irtiqa-class-pg3 .irtiqa-class-sk1 h3{
         font-size: medium;
         line-height: 1.2;
         height: 40px;
-    
+        
     }
-
+  
     .irtiqa-class-pg3 .irtiqa-class-sk1 ul li{
         font-size: 17px;
     }
 
     .irtiqa-class-pg3 .irtiqa-class-proj{
-        margin: 1.5% 5%;
+        margin: 1% 11%;
     }
     .irtiqa-class-pg3 .irtiqa-class-proj img{
-        width: 200px;
-        height: 100px;
+        width: 300px;
+        height: 150px;
     }
     
     .irtiqa-class-more{
-
-        display: block;
-        display: grid;
-        padding: 5% 5%;
-        
+        display: none;
     } 
     .irtiqa-class-more h5 { 
         font-size: small;
@@ -531,23 +543,24 @@ nav .irtiqa-class-resumeButton a button:hover{
     .irtiqa-class-form input{
         font-size: 14px;
         margin: 0.5%;
-        height: 25px;
+        height: 30px;
     }
 
     .irtiqa-class-form #irtiqa-id-name,#irtiqa-id-number{
         display: inline;
         float: left;
-        width: 43.7%;
+        width: 90%;
+        margin-bottom: 2%;
     }
     
     .irtiqa-class-form #irtiqa-id-email{
-        width: 90.5%;
+        width: 90%;
         float: left;
-        margin-bottom: 1%;
+        margin-bottom: 2.5%;
     }
 
     .irtiqa-class-form #irtiqa-id-txtarea{
-        width: 89%;
+        width: 88.3%;
         font-size: 14px;
         margin-left: 0.5%;
     }
@@ -555,23 +568,24 @@ nav .irtiqa-class-resumeButton a button:hover{
     .irtiqa-class-form #irtiqa-id-submit{
         margin-left: auto;
         margin-right: auto;
-        height: 35px;
-        margin-bottom: 1%;
+        height: 45px;
+        width: 155px;
+        margin-bottom: 3%;
     }
 
     .irtiqa-class-pg3 .irtiqa-class-footer{
-       
-        height: 40px;
-        padding: 1.2%;
+        margin-top: 20%;
+        padding: 3%;
     }
 
-    .irtiqa-class-pg3 .irtiqa-class-footer .irtiqa-class-social{
-        margin-left: 35%;
-        display:flex;
+    .irtiqa-class-pg3 footer .irtiqa-class-social{
+        margin-left: 20%;
+
     }
-    .irtiqa-class-pg3 .irtiqa-class-footer img{
-        width: 20px;
-        margin-right: 2%;
-       
+    footer a {
+        display: inline;
+        float: left;
+        margin-top: 2%;
+        margin-left: 4%;
     }
 }
